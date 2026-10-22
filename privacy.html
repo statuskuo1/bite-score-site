@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BITE Score — Privacy</title>
+<meta name="description" content="What BITE Score collects, why, who can see it, and how to delete it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --parchment: #F2EADB;
+    --card: #FBF6EA;
+    --ink: #3A2A1C;
+    --sand: #6E655A;
+    --rust: #9C4E1E;
+    --hairline: #E0D5BF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --parchment: #1C1611;
+      --card: #251D16;
+      --ink: #EFE6D6;
+      --sand: #A89C8A;
+      --rust: #D4793F;
+      --hairline: #3A2E23;
+    }
+  }
+  :root[data-theme="dark"] {
+    --parchment: #1C1611;
+    --card: #251D16;
+    --ink: #EFE6D6;
+    --sand: #A89C8A;
+    --rust: #D4793F;
+    --hairline: #3A2E23;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--parchment);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 56px 16px 96px; }
+  .eyebrow {
+    font-size: 13px; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--rust); margin: 0 0 28px;
+  }
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 700; font-size: clamp(34px, 8vw, 48px);
+    line-height: 1.05; margin: 0 0 12px; letter-spacing: -0.01em;
+  }
+  .stand { color: var(--sand); font-size: 18px; margin: 0 0 8px; }
+  .dated { color: var(--sand); font-size: 14px; margin: 0 0 44px; }
+  h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600; font-size: 25px; line-height: 1.2;
+    margin: 48px 0 12px; letter-spacing: -0.005em;
+  }
+  h3 { font-size: 17px; font-weight: 600; margin: 28px 0 6px; }
+  p { margin: 0 0 16px; }
+  ul { margin: 0 0 16px; padding-left: 1.25em; }
+  li { margin-bottom: 8px; }
+  strong { font-weight: 600; }
+  a { color: var(--rust); text-underline-offset: 2px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--hairline);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin: 28px 0;
+  }
+  .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+  hr { border: 0; border-top: 1px solid var(--hairline); margin: 56px 0 32px; }
+  footer { color: var(--sand); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">BITE Score</p>
+  <h1>Privacy</h1>
+  <p class="stand">What the app collects, why, who can see it, and how to get rid of it.</p>
+  <p class="dated">Last updated 22 October 2026</p>
+
+  <p>BITE Score is a logbook for places you eat and drink. It is made by one person, Irene Kuo. There is no company behind it, no advertising in it, and nothing in it is sold to anyone.</p>
+
+  <p>This page is written to be read rather than skimmed past. If something here is unclear, that is a fault worth telling me about.</p>
+
+  <h2>What the app collects</h2>
+
+  <h3>Your account</h3>
+  <p>You sign in with Apple or with Google. The app never sees your password — the sign-in happens with them, and what comes back to BITE is an email address and, the first time only, your name.</p>
+  <p>If you sign in with Apple and choose <strong>Hide My Email</strong>, BITE receives a forwarding address ending in <code>privaterelay.appleid.com</code> rather than your real one, and that works perfectly well. The app also stores a display name and a handle, which you can change, and a home city if you add one.</p>
+
+  <h3>Your log</h3>
+  <p>This is the point of the app, and it is most of what is stored:</p>
+  <ul>
+    <li>the places you log, and when you went</li>
+    <li>your scores for taste, cost and wait, and the overall score worked out from them</li>
+    <li>notes you write</li>
+    <li>what you ordered and what it cost</li>
+    <li>photos of dishes, if you add them</li>
+    <li>who you follow and who follows you</li>
+  </ul>
+
+  <h2>What the app does not collect</h2>
+
+  <div class="card">
+    <p><strong>Your location never leaves your phone.</strong> BITE asks for location so the map can start where you are and so searching for a place finds the ones near you. That happens entirely on the device. The only coordinates ever stored are the restaurants' — never yours, never a history of where you have been.</p>
+  </div>
+
+  <p>There is also no advertising, no advertising identifier, no third-party analytics, no tracking across other apps or websites, and no access to your contacts or your photo library beyond the specific pictures you choose to attach to a visit.</p>
+
+  <h2>Who can see it</h2>
+
+  <p><strong>You can.</strong> It is your log.</p>
+  <p><strong>People you connect with</strong> see what the app shows them — your logged places and scores, within whatever visibility you have set. If you would rather something stayed private, that is a setting, not a request you have to send me.</p>
+  <p><strong>Nobody else.</strong> Your log is not public, not searchable on the web, and not shared with anyone for any commercial purpose.</p>
+
+  <h2>Where it is stored, and who handles it</h2>
+
+  <p>Your account and your log live in a database hosted by <a href="https://supabase.com/privacy">Supabase</a>, and dish photos live in its file storage. Supabase holds the data on my behalf; it is not theirs to use.</p>
+  <p><strong>Apple</strong> and <strong>Google</strong> are involved only at sign-in. They know you signed in to BITE. They do not receive your log.</p>
+  <p>While the app is in beta, it is distributed through <strong>Apple's TestFlight</strong>. Apple collects crash reports and any feedback you send through TestFlight, under Apple's own privacy terms rather than mine.</p>
+
+  <h2>Deleting your account</h2>
+
+  <div class="card">
+    <p>In the app: <strong>Profile → Delete my account</strong>.</p>
+    <p>Your account is marked for deletion straight away and you are signed out. You stop appearing in search to other people immediately.</p>
+    <p><strong>You have thirty days to change your mind.</strong> Signing back in within that window cancels the deletion and nothing is lost. After thirty days your account, your log and your photos are permanently removed, and that cannot be undone.</p>
+  </div>
+
+  <p>If you would rather not do it in the app, email me and I will do it for you.</p>
+
+  <h2>How long things are kept</h2>
+  <p>Your log is kept for as long as your account exists, because the whole purpose is to be able to look back at it. Delete your account and it goes, on the thirty-day schedule above.</p>
+
+  <h2>Children</h2>
+  <p>BITE Score is not intended for children under 13, and accounts are not knowingly created for them. If you believe a child has an account, email me and I will remove it.</p>
+
+  <h2>Changes to this page</h2>
+  <p>If what the app collects changes, this page changes with it and the date at the top moves. Anything that meaningfully affects what is collected or who can see it will also be said in the app rather than quietly edited here.</p>
+
+  <h2>Getting in touch</h2>
+  <p>Questions, a correction, or you want your data removed — email <a href="mailto:bitescorehq@gmail.com">bitescorehq@gmail.com</a>.</p>
+
+  <hr>
+  <footer>
+    <p>BITE Score · Irene Kuo · bitescorehq@gmail.com</p>
+  </footer>
+
+</div>
+</body>
+</html>
